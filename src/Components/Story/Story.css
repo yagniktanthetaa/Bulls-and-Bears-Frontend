@@ -1,0 +1,66 @@
+.storyTitleName {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+  /* text-align: center; */
+  color: #ffffff;
+}
+.storySubTitle {
+  font-family: "Helvetica";
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 30px;
+  color: #ffffff;
+  word-break: break-word;
+}
+.InvestorsTitle {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 70px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.empty-140 {
+  margin-top: 140px;
+}
+@media screen and (max-width: 1152px) {
+  .storySubTitle{
+    font-size: 20px;
+    line-height: 23px;
+  }
+  /* .empty-140 {
+    margin-top: 70px;
+  } */
+}
+@media screen and (max-width: 991px) {
+  .storySubTitle{
+    font-size: 17px;
+    line-height: 23px
+  }
+}
+@media screen and (max-width: 768px) {
+  .empty-140 {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .storyTitleName {
+    line-height: 40px;
+    font-size: 30px;
+  }
+  .storySubTitle {
+    font-size: 15px;
+  }
+  .empty-140 {
+    margin-top: 10px;
+  }
+  
+}

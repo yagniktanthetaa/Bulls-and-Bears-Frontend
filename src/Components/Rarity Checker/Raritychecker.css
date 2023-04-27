@@ -1,0 +1,101 @@
+.checker-team {
+   position: absolute;
+   top: 9%;
+      left: 0%;
+      right: 0%;
+   
+}
+.checker-frame {
+   width: 70%;
+}
+.myx-160-40 {
+   margin-top: 165px;
+   margin-bottom: 40px !important;
+}
+.checkerDataTitle{
+font-family: 'Josefin Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 48px;
+   /* identical to box height */
+
+
+   color: #DCB2FD;
+}
+.checker-80 {
+   max-width: 60%;
+}
+.numberNtf{
+   font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 41px;
+   
+      color: #FFFFFF;
+}
+
+.checkerTitle{
+   position: absolute;
+      top: 1px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+      color: #DCB2FD;
+}
+.bgcolorNtf{
+font-family: 'Helvetica';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 15px;
+
+   color: #DCB2FD;
+}
+.colorcode{
+font-family: 'Helvetica';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 18px;
+  
+   color: #FFFFFF;
+}
+.perTrait{
+font-family: 'Helvetica';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 18px;
+
+   color: #FFFFFF;
+}
+.nftborder{
+   border: 1px solid #DCB2FD;
+      border-radius: 8px;
+      padding: 10px;
+      min-width: 210px;
+}
+.View{
+font-family: 'Sofia Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 16px;
+  
+
+   color: #FFFFFF;
+}
+.mobilePadd {
+   padding: 0 15px;
+}
+@media screen and (max-width:768px) {
+   
+   
+}
+@media screen and (max-width:575px){
+   .checkerDataTitle {
+         font-size: 35px;
+         line-height: 10px;
+      }
+}

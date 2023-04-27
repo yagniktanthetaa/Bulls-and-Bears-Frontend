@@ -1,0 +1,296 @@
+.collectionTitle {
+   font-family: "Josefin Sans";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 70px;
+   text-align: center;
+   color: #ffffff;
+}
+
+.BtnNft {
+   background: linear-gradient(1.41deg,rgba(118, 5, 213, 0) -29.38%,rgba(118, 5, 213, 0.06) -2.68%,rgba(118, 5, 213, 0.2) 26.01%,rgba(118, 5, 213, 0.44) 52.04%,rgba(118, 5, 213, 0.76) 74.06%,#7605d5 98.75%);
+   border-radius: 10px;
+   padding: 20px 36px;
+   border: 0;
+   align-items: center;
+   font-family: "Helvetica";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 23px;
+   color: #ffffff;
+}
+.Icon{
+position: absolute;
+top :18px;
+padding-left: 16px;
+color: #DADADA !important;
+}
+::placeholder{
+   font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 18px;
+      /* text-align: center; */
+   
+      color: #DADADA !important;
+}
+.BtnNft:hover{
+   color:  #DCB2FD !important;
+   
+}
+.BtnCollections{
+padding-top: 80px;
+}
+
+.NFT-Collections {
+   position: absolute;
+   top: 21px;
+   left: 13px;
+}
+
+
+.ourTeam .about-section {
+   max-width: 700px;
+   margin: auto;
+}
+
+.about-collection {
+   cursor: pointer;
+   position: absolute;
+   top: 35px;
+   left: 7px;
+   text-align: center;
+}
+
+.collection-frame {
+   width: 100%;
+}
+
+.collection-80 {
+   max-width: 80%;
+   /* max-width: 96%; */
+}
+
+.about-collection h5 {
+   font-family: 'Josefin Sans';
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 24px;
+   color: #FFFFFF;
+}
+
+.designation {
+   font-family: 'Helvetica';
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 18px;
+   color: #FFFFFF;
+}
+
+
+
+
+.team-profile-link img {
+   margin-left: 10px;
+}
+
+.nft-dropdown {
+   border: #7605d5;
+   background: linear-gradient(1.41deg, rgba(118, 5, 213, 0) -29.38%, rgba(118, 5, 213, 0.06) -2.68%, rgba(118, 5, 213, 0.2) 26.01%, rgba(118, 5, 213, 0.44) 52.04%, rgba(118, 5, 213, 0.76) 74.06%, #7605D5 98.75%);
+   border-radius: 10px;
+   padding: 10px;
+   color: white;
+   font-family: 'Helvetica';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 23px;
+   cursor: pointer;
+   height: 100%;
+}
+
+
+.dropdown {
+   margin: 0 auto;
+   /* z-index: 10000; */
+   width: 270px;
+   position: relative;
+}
+
+.item {
+   font-family: 'Helvetica';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 18px;
+   padding: 10px;
+   color: #FFFFFF;
+}
+
+.formInputcollect {
+   border: 1px dotted #DCB2FD;
+   background-color: transparent !important;
+   padding: 14px 30px;
+   width: 300px;
+}
+
+.collImgSub {
+   font-family: 'Josefin Sans';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   /* identical to box height */
+   padding: 10px;
+   text-align: center;
+
+   color: #FFFFFF;
+}
+@media screen and (max-width:1200px) {
+   .collection-frame {
+       width: 63%;
+   }
+   .about-collection {
+      left: 43%;
+      top: 21;
+      transform: translate(-38%);
+  }
+
+}
+
+@media screen and (max-width:991px) {
+   img.collection-frame:nth-child(1) {
+       margin-top: 30px;
+   }
+
+   .about-collection {
+       top: 79px;
+   }
+
+   .collection-frame {
+       width: 83%;
+   }
+
+   .collection-80 {
+      max-width: 98%;
+   
+  }
+   .about-collection {
+       top: 60px;
+       left: 36%;
+       transform: translate(-28%);
+   }
+}
+
+@media screen and (max-width:767px) {
+   /* .about-collection {
+       top: 69px;
+   } */
+
+   .about-collection h5 {
+       font-size: 18px;
+       line-height: 24px;
+   }
+
+   .designation {
+       font-size: 14px;
+       line-height: 18px;
+   }
+
+   .collection-frame {
+       width: 93%;
+   }
+
+   .about-collection {
+      top: 60px;
+      left: 28%;
+      transform: translate(-20%);
+  }
+}
+
+@media screen and (max-width:575px) {
+   .collection-frame {
+       width: 64%;
+   }
+
+   img.collection-frame:nth-child(1) {
+      margin-top: 30px;
+  }
+  .about-collection {
+   top: 70px;
+   left: 29%;
+   transform: translate(-14%);
+}
+.collection-80 {
+   max-width: 83%;
+}
+   
+}
+
+
+@media screen and (max-width:480px) {
+   .about-collection {
+      top: 65px;
+      left: 23%;
+      transform: translate(-15%);
+   }
+  img.collection-frame:nth-child(1) {
+   margin-top: 30px;
+}
+.collection-frame {
+   width: 79%;
+}
+.collectionTitle{
+   font-size: 30px;
+    line-height: 40px;
+}
+.collection-80 {
+   max-width: 75%;
+}
+.BtnCollections {
+   padding-top: 50px;
+}
+   .team-profile-link img{
+       width: 20px;
+   }
+   .QuickMenu{
+      font-size: 14px;
+   }
+}
+@media screen and (max-width:375px) {
+   .about-collection {
+      top: 55px;
+    left: 23%;
+    transform: translate(-15%);
+
+   }
+}
+
+
+.loading-spinner-collection {
+   position: fixed;
+   left: 50%;
+   transform: translate(-50%,-50%) translateZ(0);
+   top: 70%;
+   width: 80px;
+   height: 80px;
+   z-index: 1;
+  
+   background-size: contain;
+    /*animation: spinning 1.5s infinite ease-in-out;*/
+}
+.loading-spinner-collection:after {
+	content:"";
+	position:absolute;
+	width:120px;
+	height:120px;
+	background-color:rgba(0,0,0,0);
+	border-radius:100%;
+	margin:-15px;
+	box-shadow: 0 4px 0 0 #7605D5;
+	transition: all 1s linear;
+	animation: lds-eclipse 1s linear infinite;
+}

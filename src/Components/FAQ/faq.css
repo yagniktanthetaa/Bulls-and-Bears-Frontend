@@ -1,0 +1,6 @@
+.accordion{
+    --bs-accordion-bg:  transparent !important;
+}
+.accordion-button:not(.collapsed){
+    background-color:transparent !important;
+}

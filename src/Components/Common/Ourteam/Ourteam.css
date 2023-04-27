@@ -1,0 +1,148 @@
+.ourTeam {
+    background-image: url("../../../Assets/img/Header/background-with-star.png");
+}
+
+.ourTeam .about-section {
+    max-width: 700px;
+    margin: auto;
+}
+
+.about-team {
+    position: absolute;
+    top: 45px;
+    left: 60px;
+    text-align: center;
+}
+
+.team-frame {
+    width: 90%;
+}
+.dataTem{
+place-content: center;
+}
+.w-80 {
+    max-width: 100%;
+}
+
+.about-team h5 {
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.designation {
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+/* .about-team div {
+    max-width: 80%;
+    margin-right: auto;
+} */
+
+
+
+.team-profile-link img {
+    margin-left: 10px;
+}
+.scale:hover{
+    transform: rotate(354deg);
+}
+
+/* .frame-position:hover .scale{
+    transform: scale(0.9);
+    transition: 1s;
+} */
+
+@media screen and (max-width:1200px) {
+    .team-frame {
+        width: 65%;
+    }
+
+    .about-team {
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+}
+
+@media screen and (max-width:991px) {
+    img.team-frame:nth-child(1) {
+        margin-top: 30px;
+    }
+
+    .about-team {
+        top: 79px;
+    }
+
+    .team-frame {
+        width: 70%;
+    }
+
+    .w-80 {
+        max-width: 100%;
+    }
+
+    .about-team {
+        top: 60px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .about-team {
+        top: 69px;
+    }
+
+    .about-team h5 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .designation {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .team-frame {
+        width: 80%;
+    }
+
+    /* .w-80 {
+        max-width: 97%;
+    } */
+}
+
+@media screen and (max-width:575px) {
+    .team-frame {
+        width: 70%;
+    }
+
+    .about-team {
+        top: 100px;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .team-frame {
+        width: 72%;
+    }
+
+    .about-team {
+        top: 85px;
+    }
+    .team-profile-link img{
+        width: 20px;
+    }
+}
+@media screen and (max-width:375px) {
+    .about-team {
+        top: 75px;
+    }
+        
+}

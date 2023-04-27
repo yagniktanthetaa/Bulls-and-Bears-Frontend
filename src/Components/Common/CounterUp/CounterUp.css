@@ -1,0 +1,67 @@
+.counter-bg {
+    background-image: url("../../../Assets/img/Header/counter-bg.png");
+    padding: 162px 0;
+}
+
+.counter {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    color: #8F00FF;
+}
+
+.about-counter {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:991px) {
+    .counter-bg {
+        background: none;
+        padding: 100px 0;
+    }
+
+    .counter {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .about-counter {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .counter {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .about-counter {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .counter-bg {
+        padding: 50px 0;
+    }
+
+    .mt-80 {
+        margin-top: 10px !important;
+    }
+}
+
+@media screen and (max-width:575px) {
+    
+    .sub-title {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 10px 0 !important;
+    }
+}

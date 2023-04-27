@@ -1,0 +1,356 @@
+.ourTeam .about-section {
+  max-width: 700px;
+  margin: auto;
+}
+
+.Contact-team {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  right: 20%;
+}
+.Contact-title {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  padding: 30px 0;
+  text-align: center;
+
+  color: #ffffff;
+}
+.Contact-sub-title {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 26px;
+  text-align: center;
+  display: inherit;
+  color: #ffffff;
+}
+.Contact-frame {
+  width: 100%;
+}
+
+.contact-80 {
+  max-width: 80%;
+}
+
+.Contact-team h5 {
+  font-family: "Josefin Sans";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.designation {
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.contactForm {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 55px;
+  color: #ffffff;
+}
+.contactformSubTitle {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 0 30%;
+  color: #ffffff;
+}
+
+.team-profile-link img {
+  margin-left: 10px;
+}
+.ContactFrom {
+  padding-top: 35px;
+}
+.labelFrom {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  padding: 20px 0;
+}
+.inputBg {
+ padding-top: 10px;
+ border: 2px solid #DCB2FD;
+ margin: 10px auto 10px;
+ border-radius: 20px;
+ 
+}
+.inputDescriptionBg {
+  background-image: url("../../Assets/img/Contact/terxtarea.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+textarea {
+  border-color: transparent;
+  font-family: "Helvetica" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 23px !important;
+
+  color: #ffffff !important;
+}
+textarea:focus-visible {
+  outline: none !important;
+}
+input {
+  border-color: transparent transparent transparent;
+  font-family: "Helvetica" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 23px !important;
+
+  color: #ffffff !important;
+}
+input:focus-visible {
+  outline: none !important;
+}
+.contactInput {
+  display: block;
+  width: 100%;
+  padding: 21px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: transparent;
+}
+.contactData {
+  padding-top: 50px;
+}
+.modelBG{
+background-color: #161634;
+border-radius: 35px;
+max-width: 600px;
+margin: auto;
+  /* background-image: url("../../Assets/img/Contact/model.png"); */
+}
+.btnClose{
+background-color: transparent ;
+border:  none !important;
+cursor: pointer;
+display: flex;
+justify-content: end;
+margin-left: auto;
+}
+.closeIcon{
+  
+
+padding: 20px;
+}
+.ModelCenter{
+  margin:  auto;
+}
+.iconSucce{
+  text-align: center;
+  padding: 25px;
+}
+.Model-text-color{
+ color: white;
+}
+@media screen and (max-width: 1200px) {
+  .Contact-team {
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+
+@media screen and (max-width: 1152px) {
+  .Contact-team {
+    top: 10%;
+    left: 35%;
+    transform: translate(-20%);
+  }
+  .Contact-sub-title {
+    font-size: 16px;
+  }
+  .Contact-title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .Contact-title {
+    padding: 20px 0;
+  }
+}
+@media screen and (max-width: 1152px) {
+  .Contact-title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .Contact-sub-title {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .contactformSubTitle {
+    padding: 0 25%;
+  }
+}
+@media screen and (max-width: 991px) {
+  /* img.Contact-frame:nth-child(1) {
+       margin-top: 30px;
+   } */
+  .contactformSubTitle {
+    padding: 0 20%;
+  }
+  .Contact-team {
+    top: 30px;
+
+    left: 20%;
+    transform: translate(-3%);
+  }
+  .ContactFrom {
+    padding-top: 60px;
+  }
+  .Contact-frame {
+    width: 100%;
+  }
+
+  .contact-80 {
+    max-width: 50%;
+  }
+  .Contact-sub-title {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .colpadding {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Contact-team {
+    top: 30px;
+    left: 18%;
+    transform: translate(6%);
+  }
+  .Contact-team h5 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .contact-80 {
+    max-width: 40%;
+  }
+  .Contact-title {
+    font-size: 20px;
+    line-height: 15px;
+    padding: 10px 0;
+  }
+  .ContactFrom {
+    padding-top: 60px;
+  }
+  .contactForm {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .designation {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .Contact-frame {
+    width: 100%;
+  }
+  .contactformSubTitle {
+    padding: 0px 20%;
+  }
+  /* .contact-80 {
+       max-width: 97%;
+   } */
+}
+
+@media screen and (max-width: 575px) {
+  .Contact-frame {
+    width: 70%;
+  }
+
+  .Contact-team {
+    top: 100px;
+    left: 14%;
+    transform: translate(6%);
+  }
+  .contactForm {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .Frameset {
+    padding-top: 10px;
+  }
+  .contactformSubTitle {
+   padding: 0px 0%;
+}
+.contactformSubTitle{
+   font-size: 15px;
+}
+.contactInput{
+  padding: 12px;
+}
+}
+
+@media screen and (max-width: 480px) {
+  .Contact-frame {
+    width: 80%;
+  }
+
+  .Contact-team {
+    top: 50px;
+  }
+  .team-profile-link img {
+    width: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .Contact-team {
+    top: 50px;
+  }
+  .contact-80 {
+    max-width: 30%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .Contact-title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .Contact-title {
+    padding: 10px 0;
+  }
+  .labelFrom {
+  
+   font-size: 15px;
+   line-height: 20px;
+  
+   padding: 10px 0;
+}
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,125 @@
+.LogoSubtile {
+   font-family: 'Helvetica';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   padding-top: 20px;
+   color: #FFFFFF;
+}
+
+.footerMenu {
+   font-family: 'Helvetica';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+   /* identical to box height */
+   padding-bottom: 10px;
+
+   color: #DCB2FD;
+}
+.footerline{
+border-top: 1px solid rgb(121 121 121 / 50%);;
+}
+.footerTerms {
+   color: #B0B0B0 !important;
+}
+
+.footerTerms:hover {
+   color: #DCB2FD !important;
+}
+
+.footersubmenu {
+   font-family: 'Helvetica';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 23px;
+   /* identical to box height */
+   padding-bottom: 10px;
+
+   color: #FFFFFF;
+}
+.titleFooter:hover{
+   color: #DCB2FD !important;
+}
+.footersubmenu:hover {
+   color: #DCB2FD !important;
+   /* transform: rotate(354deg); */
+}
+
+.formInput {
+   border: 1px dotted #DCB2FD;
+   background-color: transparent !important;
+}
+
+.titleFooter {
+   font-family: 'Helvetica';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 18px;
+
+   color: #FFFFFF;
+}
+
+@media screen and (max-width:991px) {
+   .footerMenu {
+      font-size: 18px;
+      line-height: 20px;
+   }
+
+   .footersubmenu {
+      font-size: 17px;
+      line-height: 17px;
+   }
+
+   .LogoSubtile {
+      font-size: 15px;
+      line-height: 18px;
+   }
+   .mobilemenu {
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center !important;
+      align-items: center;
+      padding-bottom: 10px;
+   }
+   .mobileFooter {
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center !important;
+      align-items: center;
+
+   }
+   .gootericon{
+      padding-bottom: 25px;
+   }
+}
+
+@media screen and (max-width:767px) {
+   .menuData {
+      text-align: center;
+      padding-top: 20px;
+   }
+
+   .logoMobile {
+      text-align: center;
+   }
+
+   .footerMenu {
+      font-size: 18px;
+      line-height: 20px;
+   }
+ 
+}
+
+@media screen and (max-width:680px) {
+  
+      .footerlogo{
+padding-bottom: 25px;
+      }
+
+   
+}

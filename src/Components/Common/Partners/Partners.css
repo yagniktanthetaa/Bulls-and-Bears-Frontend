@@ -1,0 +1,206 @@
+.footerImg {
+  background-image: url(../../../Assets/img/Footer/footerbg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.FooterBg {
+  background-image: url("../../../Assets/img/Title/StoryBg.png");
+  /* background-image: url("../../Assets/img/Story/StoryBg.png"); */
+}
+.lineColor{
+  color: white;
+}
+
+a:hover{
+  color: white;
+}
+.Footersubtitle {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.footerTitle {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 55px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.footer{
+align-self: center;
+}
+.footer-btn-bg {
+  background: url(../../../Assets/img/Footer/footer-btn-bg.png) no-repeat;
+  background-color: initial;
+  /* background-size: cover; */
+  height: 66px;
+  min-width: 177px;
+  border: 0;
+  /* margin-left: 16px; */
+}
+/* .footerSub{
+  background: url(../../../Assets/img/Footer/sub.png) no-repeat;
+  background-color: initial;
+  /* background-size: cover; 
+  height: 65px;
+  min-width: 175px;
+  border: 0;
+} */
+.SingleFooterImg {
+  display: none;
+}
+.footerimg{
+display: block;
+}
+.footerLogoTitle{
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  
+  color: #FFFFFF;
+}
+.QuickMenu{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+
+}
+.copyRight
+{
+  padding: 20px 0 20px 0;
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 21px;
+color: #B0B0B0 !important;
+}
+/* .terms{
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+   color: #B0B0B0;
+} */
+.form-control{
+  padding: 15px 20px 15px 40px !important;
+  border-radius: 10px !important;
+}
+@media screen and (max-width: 1336PX) {
+  .footerimg {
+    width: 50%;
+  }
+  .footerTitle{
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+@media screen and (max-width: 1152px) {
+  .footerimg {
+    width: 50%;
+  }
+  .footerTitle{
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .footer{
+    align-self: center;
+    }
+}
+@media screen and (max-width: 1024px) {
+  
+ 
+  .Footersubtitle {
+    font-size: 15px;
+  }
+
+}
+@media screen and (max-width:991px){
+  .subBtn{
+    justify-content: center;
+  }
+  .copyRight{
+font-size: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+ 
+  .footerTitle {
+    font-size: 35px;
+   
+  }  
+  .Footersubtitle {
+    font-size: 15px;
+  }
+  .copyRight {
+    font-size: 15px;
+    line-height: 17px;
+  }
+ 
+  .footerMobileLogo{
+  justify-content: center;
+    }
+  .subBtn{
+      justify-content: space-evenly;
+    }
+}
+@media screen and (max-width: 575px) {
+  .SingleFooterImg {
+    width: 35%;
+    display: block;
+  }
+  .footerimg{
+display: none;
+  }
+  .footerTitle {
+    font-size: 20px;
+}
+.InvestorsTitle{
+  font-size: 30px;
+  line-height: 50px;
+}
+.line-height{
+  line-height: 20px;
+}
+.copyRight{
+text-align: center;
+}
+.reverCopy{
+  flex-direction: column-reverse;
+  
+}
+.mobileFooter{
+  padding-top: 15px;
+}
+.footerTerms{
+  justify-content: center;
+}
+.QuickMenu{
+  font-size: 14px;
+}
+.lineColorsvg{
+  width: 15px;
+}
+}
+@media screen and (max-width: 375px){
+.copyRight {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+}
+/* */
